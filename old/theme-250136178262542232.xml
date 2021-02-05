@@ -1,0 +1,1742 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+
+  &lt;head&gt; 
+
+	<meta content='IE=EmulateIE7; IE=9; IE=8; IE=7; IE=edge; chrome=1' http-equiv='X-UA-Compatible'/>
+    <meta charset='utf-8'/>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<b:if cond='data:blog.pageType == &quot;index&quot;'>
+		<title><data:blog.pageTitle/> | Como Compor uma Música no Mais Alto Nível</title>
+	<b:else/>
+		<title><data:blog.pageName/> &#8211; <data:blog.title/></title>
+	</b:if>
+
+	<meta content='index,follow' name='robots'/>
+
+	<b:if cond='data:blog.pageType == &quot;index&quot;'>
+		<b:include data='blog' name='all-head-content'/>
+		<meta content='Aprenda a compor música no mais alto nível. Teoria Musical Completa! Harmonia, Formas, Orquestração. Destaque sua música de outros. Análise e conceitos musicais.' name='description'/>
+		<meta content='composição, como compor uma música, análise, música clássica, música erudita, música popular, canção' name='keywords'/>
+		<meta content='Carlos A. Correia - Técnicas de Composição Musical' name='author'/>
+	<b:else/>
+		<b:include data='blog' name='all-head-content'/>
+		<meta expr:content='&quot;Aprenda como compor uma música: &quot; + data:blog.pageTitle' name='description'/>
+		<meta content='composição, como compor uma música, análise, música clássica, música erudita, música popular, canção' name='keywords'/>
+		<meta content='Carlos A. Correia - Técnicas de Composição Musical' name='author'/>
+	</b:if>
+
+  <meta expr:content='data:blog.url' property='og:url'/>
+  <meta content='website' property='og:type'/>
+  <meta expr:content='data:blog.pageTitle' property='og:title'/>
+  <meta content='Técnicas de Composição' property='og:site_name'/>
+  <meta expr:content='data:blog.description' property='og:description'/>
+  <meta content='http://2.bp.blogspot.com/-v4KB5G5IZms/Vj9abl74Q9I/AAAAAAAAArk/WXYSGXvtBck/s320/logo-tecnicas-de-composicao.png' property='og:image'/>
+
+
+	<link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'/>
+    <!-- Bootstrap -->
+    <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' integrity='sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==' rel='stylesheet'/>
+    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' rel='stylesheet'/>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+    <b:skin><![CDATA[
+/*
+-----------------------------------------------
+Blogger Template
+Name:     Técnicas de Composição
+Designer: Carlos Augusto Correia
+URL:      tecnicasdecomposicao.com.br
+----------------------------------------------- */
+
+/* Variable definitions
+   ====================
+   <Variable name="keycolor" description="Main Color" type="color" default="#ffffff" value="#eeeeee"/>
+
+   <Group description="Page" selector="body">
+     <Variable name="body.font" description="Font" type="font"
+         default="normal normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 16px Open Sans"/>
+     <Variable name="body.background.color" description="Background Color" type="color" default="#000000" value="#ffffff"/>
+     <Variable name="body.text.color" description="Text Color" type="color" default="#ffffff" value="#444444"/>
+   </Group>
+*/
+
+/* Content
+----------------------------------------------- */
+
+body {
+  padding-top: 100px;
+  background-color:#f7f6f3;
+  font-family: "Bitter","Helvetica Neue",Helvetica,Arial,sans-serif; /*'Bitter', serif!important;*/
+}
+
+.section, .widget {
+    margin: 0;
+}
+
+/* necessário para criar overload do CSS carregado automaticamente pelo Blogger */
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-bottom: 5px!important;
+    margin-top: 5px!important;
+}
+.h4, .h5, .h6, h4, h5, h6 {
+    margin-bottom: 10px!important;
+    margin-top: 10px!important;
+}
+.widget, .widget ul, .widget ul li {
+  padding: 0;
+}
+.well {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.panel {
+  border-radius: 8px;
+}
+
+.panel-heading {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+nav.navbar-principal {
+  margin-bottom: 0;
+  min-height: 100px;
+  border-width: 5px 0 1px;
+  border-color:#024;
+}
+
+nav.container {
+  top:10px;
+  
+}
+
+nav.navbar-principal {
+  background-color: #fff;
+}
+
+nav #navbar {
+  margin: 15px 10px 0 0;
+  color:#FFFFFF
+}
+
+.navbar-principal h1, h1#logo, h1#logo a {
+  margin:1px 0!important;
+  padding:0;
+  text-indent: -9999px;
+}
+
+.navbar-principal h1#logo > img{
+  margin-right:10px!important;
+}
+
+.menu-principal > ul {
+  margin: 10px!important;
+  color:#FFFFFF
+}
+
+.menu-principal > ul > li {
+  border-radius: 4px;
+}
+
+.menu-principal > ul > li > a {
+    display: block;
+    line-height: 45px;
+    padding: 0 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: #333;
+    color: #ddd;
+}
+.menu-principal > ul > li.active > a > a:focus {
+    color:#333!important;
+}
+
+.menu-principal > ul > li > a:hover {
+    color:#eee!important;
+    background-color: #111!important;
+}
+
+.dropdown-menu > li > a {
+  line-height:2.0;
+}
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+  background-color: #333;
+  color: #ddd;
+}
+
+#banner-principal {
+  margin-bottom: 50px;
+}
+
+#banner-principal-menor {
+  margin-top: -70px;
+  margin-bottom: 50px;
+}
+
+#banner-principal > img, #banner-principal-menor > img {
+  width:100%;  
+}
+
+#imagem-do-autor {
+  border-radius: 40px;
+  width:75%;
+}
+
+aside .panel-group {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+
+.margem-acima  {
+    margin-top: 20px!important;
+}
+
+.lista_artigos_populares h2, .lista_categorias h2 {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/*
+.paineis-acordioes {
+  border-radius: 20px!important;
+}
+
+.paineis-acordioes > div > a {
+  text-decoration: none;
+}
+
+.paineis-acordioes > div > a:hover {
+  text-decoration: none;
+}
+
+#painel-artigos-populares {
+  background-color:#337ab7;
+  
+}
+
+#painel-categorias  {
+  background-color:#d9534f;
+  
+}
+
+#painel-outros  {
+  background-color: #fcf8e3;
+    border-color: #faebcc;
+    color: #8a6d3b;
+}
+*/
+
+.status-msg-box {
+  border: solid 1px #888;
+  padding: 10px;
+  margin: 25px auto;
+  width: 80%;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+
+.panel-get-email {
+    border-color: #111;
+}
+.panel-get-email > .panel-heading {
+    background-color: #333;
+    border-color: #8AfD07;
+    color: #8AfD07;
+}
+
+.btn-submeter-email {
+  border: 5px solid #ffcac0;
+  background-color: #cf394f;
+  border-radius: 50px;
+  width: 80%;
+  max-width: 200px; 
+}
+
+blockquote {
+  background: #fff;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px 1.5em 30px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+.secao-post-nao-mobile {
+  margin-left:30px;
+}
+
+.post, .post_list p {
+  font-size: 20px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.post img {
+  max-width:100%;
+}
+
+.post h1.titulo-do-post {
+   margin: 0 0 20px!important;
+}
+
+.post ul {
+  padding:20px 10px 20px 50px;
+}
+
+.post ul li {
+  margin-bottom:20px;
+  line-height: 1.7;
+}
+
+
+.post ul.pager {
+  padding:0;
+}
+
+.post h1 {
+  font-size: 40px!important;
+  letter-spacing: -1px!important;
+  text-transform: uppercase!important;
+}
+
+.post h3 {
+  font-size: 26px!important;
+  font-weight: 800!important;
+}
+
+.post_list h2 {
+    font-size: 28px!important;
+    letter-spacing: 0px!important;
+    font-weight: bolder!important;
+    text-transform: uppercase!important;
+    margin-bottom: 15px!important;
+    margin-top: 30px!important;
+    line-height: 1.7;
+}
+
+.post_info {
+  border-top: 1px #dde solid;
+  border-bottom: 1px #dde solid;
+  font-size: 15px;
+  color:#888;
+  margin: 0 0 30px;
+  padding: 5px 10px;
+}
+
+.post_social {
+  margin:0 0 40px;
+  display:block;
+  min-height: 35px;
+  padding: 5px 0;
+}
+
+.post_social #botao-gmais {
+
+}
+
+.post_social #bota-fb{
+  margin-left: 100px;
+  margin-top: -46px;
+}
+
+.post-comment-link { visibility: hidden; } /*DISQUS*/
+
+.thumbnail-img img {
+  border-bottom: medium none;
+  border-left: 8px solid #3a464a;
+}
+
+footer .footer-faixa-1 {
+  background-color: #fff;
+  border:1px #CCCCCC solid;
+  padding: 20px 0;
+}
+
+footer .footer-faixa-2 {
+  background-color: #333;
+  padding: 20px 0;
+}
+
+.footer-faixa-1-conteudo > p {
+  color:#eee!important;
+  margin:0 0 auto;
+}
+
+.footer-faixa-2-conteudo > p {
+  color:#eee!important;
+  margin:0 0 auto;
+}
+
+.footer-busca {
+  padding-top: 12px;
+}
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ 
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+     margin:0 10px;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ 
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+
+/*MailChimp*/
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+#mailchimp-antibot {position: absolute; left: -5000px;}
+
+
+
+
+
+
+  ]]></b:skin>
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version=&#39;2.0&#39;;
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,&#39;script&#39;,
+  &#39;https://connect.facebook.net/en_US/fbevents.js&#39;);
+  fbq(&#39;init&#39;, &#39;2364523120425799&#39;);
+  fbq(&#39;track&#39;, &#39;PageView&#39;);
+</script>
+<noscript><img height='1' src='https://www.facebook.com/tr?id=2364523120425799&amp;ev=PageView&amp;noscript=1' style='display:none' width='1'/></noscript>
+<!-- End Facebook Pixel Code -->
+
+  &lt;/head&gt;&lt;!--<head/>--&gt;
+
+
+  <body>
+
+    <noscript>
+        <div id='NoScript'>
+            <h6>Please enable javascript to view this site.</h6>
+        </div>
+    </noscript>
+
+  	<b:section class='header' id='header' maxwidgets='' showaddelement='yes'>
+<b:widget id='Header1' locked='true' title='TÉCNICAS DE COMPOSIÇÃO MUSICAL! (Cabeçalho)' type='Header' version='1'>
+  <b:widget-settings>
+    <b:widget-setting name='displayUrl'/>
+    <b:widget-setting name='displayHeight'>0</b:widget-setting>
+    <b:widget-setting name='sectionWidth'>752</b:widget-setting>
+    <b:widget-setting name='useImage'>false</b:widget-setting>
+    <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+    <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
+    <b:widget-setting name='displayWidth'>0</b:widget-setting>
+  </b:widget-settings>
+  <b:includable id='main'>
+      			<!-- Fixed navbar -->
+  				<nav class='navbar navbar-default navbar-fixed-top navbar-principal'>
+    				<div class='container'>
+      					<div class='navbar-header'>
+        					<button aria-controls='navbar' aria-expanded='false' class='navbar-toggle collapsed' data-target='#navbar' data-toggle='collapse' type='button'>
+          						<span class='sr-only'>Toggle navigation</span>
+              					<span class='icon-bar'/>
+              					<span class='icon-bar'/>
+              					<span class='icon-bar'/>
+        					</button>
+        					<h1 id='logo'>
+        						<label>Técnicas de Composição Musical</label>
+        						<a class='navbar-brand' expr:href='data:blog.homepageUrl'>
+        							<img alt='Técnicas de Composição Musical' height='90' src='//2.bp.blogspot.com/-v4KB5G5IZms/Vj9abl74Q9I/AAAAAAAAArk/WXYSGXvtBck/s320/logo-tecnicas-de-composicao.png'/>
+        						</a>
+        					</h1>
+      					</div>
+      					<div class='navbar-collapse collapse navbar-right menu-principal' id='navbar'>
+							<ul class='nav navbar-nav'>
+								<!--li expr:class='data:blog.pageType in {"static_page","item"} ? "active" : ""'><a expr:href='data:blog.homepageUrl'><i class="fa fa-home"></i> INÍCIO</a></li-->
+								<li expr:class='data:blog.pageType in {&quot;index&quot;} ? &quot;active&quot; : &quot;&quot;'><a expr:href='data:blog.homepageUrl'><i class='fa fa-home'/> INÍCIO</a></li>
+								<li expr:class='data:blog.url in {&quot;http://www.tecnicasdecomposicao.com.br/p/curso-composicao-musical.html&quot;,&quot;http://www.tecnicasdecomposicao.com.br/p/teoria-musical.html&quot;,&quot;http://www.tecnicasdecomposicao.com.br/p/orquestracao-curso-online.html&quot;,&quot;http://www.tecnicasdecomposicao.com.br/p/aprender-tocar-instrumento-musical.html&quot;,&quot;http://www.tecnicasdecomposicao.com.br/p/videos-youtube.html&quot;,&quot;http://www.tecnicasdecomposicao.com.br/p/ebooks-apostilas-e-tutoriais.html&quot;,} ? &quot;dropdown active&quot; : &quot;dropdown&quot;'>
+									<a aria-expanded='false' aria-haspopup='true' class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'><i class='fa fa-graduation-cap'/> CURSOS <span class='caret'/></a>
+									<ul class='dropdown-menu'>
+										<li><a href='//www.tecnicasdecomposicao.com.br/p/curso-composicao-musical.html'>de Composição</a></li>
+										<li><a href='//www.tecnicasdecomposicao.com.br/p/teoria-musical.html'>Teoria Musical</a></li>
+										<li><a href='//www.tecnicasdecomposicao.com.br/p/orquestracao-curso-online.html'>Orquestração</a></li>
+										<li><a href='//www.tecnicasdecomposicao.com.br/p/aprender-tocar-instrumento-musical.html'>Tocar Instrumentos</a></li>
+										<li class='divider' role='separator'/>
+										<li><a href='//www.tecnicasdecomposicao.com.br/p/videos-youtube.html'>Vídeos YouTube</a></li>
+										<li><a href='//www.tecnicasdecomposicao.com.br/p/ebooks-apostilas-e-tutoriais.html'>eBooks, Apostilas</a></li>
+				                            <!--http://www.tecnicasdecomposicao.com.br/p/indice-das-postagens.html
+				                            http://www.tecnicasdecomposicao.com.br/p/o-que-voce-quer.html
+				                            http://www.tecnicasdecomposicao.com.br/p/curso.html
+				                            http://www.tecnicasdecomposicao.com.br/p/indice-das-postagens.html-->
+									</ul>
+								</li>
+								<li><a href='//analisealunosmusical.blogspot.com.br/2015/11/analise-das-composicoes-dos-alunos.html'><i class='fa fa-users'/> ALUNOS</a></li>
+								<li expr:class='data:blog.url in {&quot;http://www.tecnicasdecomposicao.com.br/p/sobre.html&quot;} ? &quot;active&quot; : &quot;&quot;'><a href='//www.tecnicasdecomposicao.com.br/p/sobre.html'><i class='fa fa-user'/> SOBRE</a></li>
+								<li expr:class='data:blog.url in {&quot;http://www.tecnicasdecomposicao.com.br/p/contato.html&quot;} ? &quot;active&quot; : &quot;&quot;'><a href='//www.tecnicasdecomposicao.com.br/p/contato.html'><i class='fa fa-envelope'/> CONTATO</a></li>
+							</ul>
+      					</div><!--/.nav-collapse -->
+    				</div>
+  				</nav>
+          <b:include name='modal_geral'/>
+  			</b:includable>
+  <b:includable id='description'>
+  				<div class='descricao-do-blog'>
+  					<p class='descricao'>
+  						<span><data:description/></span>
+  					</p>
+  				</div>
+  			</b:includable>
+  <b:includable id='modal_geral'>
+          <!-- Modal -->
+          <div class='modal fade' id='inscricaoModal' role='dialog'>
+            <div class='modal-dialog'>
+
+              <!-- Modal content-->
+              <div class='modal-content'>
+                <div class='modal-header'>
+                  <button class='close' data-dismiss='modal' type='button'>fechar</button>
+                  <h4 class='modal-title text-center'><i class='glyphicon glyphicon-thumbs-up'/> INSCREVA-SE EM NOSSA LISTA VIP</h4>
+                </div>
+                <div class='modal-body'>
+                  <p class='text-center'>
+                    <h3 for='mce-EMAIL'>Quer participar das nossas aulas GRATUITAS de composição, Harmonia, e muito mais?<br/><br/>Quer participar?<br/><br/><small> Então assine abaixo para receber os links das aulas. É grátis!</small></h3>
+                  </p>
+                  <br/>
+                  <form action='//tecnicasdecomposicao.us12.list-manage.com/subscribe/post?u=f5f5406787d2d1ba81f4136c6&amp;id=438383b6c3' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+                    <input aria-describedby='basic-addon1' class='form-control' id='mce-EMAIL' name='EMAIL' placeholder='coloque seu email aqui' required='' type='email' value=''/>
+                    <br/>
+                    <div id='mailchimp-antibot'><input name='b_f5f5406787d2d1ba81f4136c6_438383b6c3' tabindex='-1' type='text' value=''/></div>
+                    <div class='text-center'>
+                      <button class='btn btn-danger btn-submeter-email' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'><i class='glyphicon glyphicon-share-alt'/> ASSINAR!</button>
+                    </div>
+                    <br/>
+                  </form>
+                  <p class='text-right'><span>Não realizamos spans.</span></p>
+                </div>
+                <!--div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div-->
+              </div>
+
+            </div>
+          </div>
+        </b:includable>
+  <b:includable id='title'>
+  				<b:if cond='data:blog.url == data:blog.homepageUrl'>
+  					<data:title/>
+  				<b:else/>
+  					<a expr:href='data:blog.homepageUrl'><data:title/></a>
+  				</b:if>
+  			</b:includable>
+</b:widget>
+</b:section>
+
+    <div class='row' expr:id='data:blog.pageType in {&quot;static_page&quot;,&quot;item&quot;} ? &quot;banner-principal-menor&quot; : &quot;banner-principal&quot;'>
+      <img alt='Partitura de Mozart' src='//3.bp.blogspot.com/-NqO4SNxOLoY/Vi_evRTo5MI/AAAAAAAAArA/Hf5lsd1pYWg/s1600/partituraMozart.jpg'/>
+    </div>
+
+    <!-- Page Content -->
+	<div class='container'>
+
+		<div class='row'>
+
+			<!-- Blog Entries Column -->
+			<div class='col-md-9 col-md-push-3'>
+
+				<b:section class='secao-post-nao-mobile' id='main' showaddelement='yes'>
+<b:widget id='Blog1' locked='true' title='Postagens do blog' type='Blog' version='1'>
+  <b:widget-settings>
+    <b:widget-setting name='showDateHeader'>true</b:widget-setting>
+    <b:widget-setting name='style.textcolor'>#333333</b:widget-setting>
+    <b:widget-setting name='showShareButtons'>true</b:widget-setting>
+    <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+    <b:widget-setting name='style.urlcolor'>#558866</b:widget-setting>
+    <b:widget-setting name='showAuthor'>true</b:widget-setting>
+    <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
+    <b:widget-setting name='style.linkcolor'>#333333</b:widget-setting>
+    <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+    <b:widget-setting name='style.bgcolor'>#eeeecc</b:widget-setting>
+    <b:widget-setting name='timestampLabel'>em</b:widget-setting>
+    <b:widget-setting name='showAuthorProfile'>true</b:widget-setting>
+    <b:widget-setting name='style.layout'>300x250</b:widget-setting>
+    <b:widget-setting name='showLabels'>true</b:widget-setting>
+    <b:widget-setting name='showLocation'>true</b:widget-setting>
+    <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+    <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+    <b:widget-setting name='showBacklinks'>true</b:widget-setting>
+    <b:widget-setting name='style.bordercolor'>#eeeecc</b:widget-setting>
+    <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+    <b:widget-setting name='showReactions'>false</b:widget-setting>
+  </b:widget-settings>
+  <b:includable id='main' var='top'>
+							<b:include data='top' name='status-message'/>
+							<b:loop values='data:posts' var='post'>
+								<a expr:name='data:post.id'/>
+								<b:if cond='data:blog.pageType == &quot;index&quot;'>
+									<div class='post_list'>
+										<b:include data='post' name='post_list'/>
+									</div>
+								<b:else/>
+									<div class='post'>
+										<b:include data='post' name='post'/>
+										<b:include data='post' name='email_inline_insert'/>
+						                <!-- navigation -->
+						                <b:include name='nextprev'/>
+										<b:include cond='data:blog.pageType in {&quot;static_page&quot;,&quot;item&quot;}' data='post' name='comment_picker'/>
+										<!--b:if cond='data:blog.pageType in {"static_page","item"}'>
+											<div id="comments" class='comments'></div>
+										</b:if-->
+									</div>
+								</b:if>
+								<hr/>
+							</b:loop>
+							<b:if cond='data:blog.pageType == &quot;index&quot;'>
+								<!-- navigation -->
+								<b:include name='nextprev'/>
+							</b:if>
+						</b:includable>
+  <b:includable id='backlinkDeleteIcon' var='backlink'/>
+  <b:includable id='backlinks' var='post'/>
+  <b:includable id='comment-form' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <b:if cond='data:mobile'>
+      <h4 id='comment-post-message'>
+        <a expr:id='data:widget.instanceId + &quot;_comment-editor-toggle-link&quot;' href='javascript:void(0)'><data:postCommentMsg/></a></h4>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/>
+    <b:else/>
+      <h4 id='comment-post-message'><data:postCommentMsg/></h4>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    </b:if>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+  <b:includable id='commentDeleteIcon' var='comment'>
+  <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
+    <b:if cond='data:showCmtPopup'>
+      <div class='goog-toggle-button'>
+        <div class='goog-inline-block comment-action-icon'/>
+      </div>
+    <b:else/>
+      <a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:top.deleteCommentMsg'>
+        <img src='https://resources.blogblog.com/img/icon_delete13.gif'/>
+      </a>
+    </b:if>
+  </span>
+</b:includable>
+  <b:includable id='comment_count_picker' var='post'>
+  <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'>
+    <data:post.commentLabelFull/>:
+  </a>
+</b:includable>
+  <b:includable id='comment_picker' var='post'>
+							<b:if cond='data:post.commentSource == 1'>
+								<b:include data='post' name='iframe_comments'/>
+							<b:elseif cond='data:post.showThreadedComments'/>
+								<b:include data='post' name='threaded_comments'/>
+							<b:else/>
+								<b:include data='post' name='comments'/>
+							</b:if>
+						</b:includable>
+  <b:includable id='comments' var='post'>
+							<div class='comments' id='comments'>
+								<a name='comments'/>
+								<b:if cond='data:post.allowComments'>
+									<h4>
+										<data:post.commentLabelFull/>
+										:
+									</h4>
+									<b:if cond='data:post.commentPagingRequired'>
+										<span class='paging-control-container'>
+											<b:if cond='data:post.hasOlderLinks'>
+												<a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'><data:post.oldestLinkText/></a>
+												&#160;
+												<a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'><data:post.olderLinkText/></a>
+												&#160;
+											</b:if>
+											<data:post.commentRangeText/>
+											<b:if cond='data:post.hasNewerLinks'>
+												&#160;
+												<a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'><data:post.newerLinkText/></a>
+												&#160;
+												<a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'><data:post.newestLinkText/></a>
+											</b:if>
+										</span>
+									</b:if>
+									<div expr:id='data:widget.instanceId + &quot;_comments-block-wrapper&quot;'>
+										<dl expr:class='data:post.avatarIndentClass' id='comments-block'>
+											<b:loop values='data:post.comments' var='comment'>
+												<dt expr:class='&quot;comment-author &quot; + data:comment.authorClass' expr:id='data:comment.anchorName'>
+													<b:if cond='data:comment.favicon'>
+														<img expr:src='data:comment.favicon' height='16px' style='margin-bottom:-2px;' width='16px'/>
+													</b:if>
+													<a expr:name='data:comment.anchorName'/>
+													<b:if cond='data:blog.enabledCommentProfileImages'>
+														<data:comment.authorAvatarImage/>
+													</b:if>
+													<b:if cond='data:comment.authorUrl'>
+														<a expr:href='data:comment.authorUrl' rel='nofollow'><data:comment.author/></a>
+													<b:else/>
+														<data:comment.author/>
+													</b:if>
+													<data:commentPostedByMsg/>
+												</dt>
+												<dd class='comment-body' expr:id='data:widget.instanceId + data:comment.cmtBodyIdPostfix'>
+													<b:if cond='data:comment.isDeleted'>
+														<span class='deleted-comment'><data:comment.body/></span>
+													<b:else/>
+														<p><data:comment.body/></p>
+													</b:if>
+												</dd>
+												<dd class='comment-footer'>
+													<span class='comment-timestamp'>
+														<a expr:href='data:comment.url' title='comment permalink'><data:comment.timestamp/></a>
+														<b:include data='comment' name='commentDeleteIcon'/>
+													</span>
+												</dd>
+											</b:loop>
+										</dl>
+									</div>
+									<b:if cond='data:post.commentPagingRequired'>
+										<span class='paging-control-container'>
+											<a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'><data:post.oldestLinkText/></a>
+											<a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'><data:post.olderLinkText/></a>
+											&#160;
+											<data:post.commentRangeText/>
+											&#160;
+											<a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'><data:post.newerLinkText/></a>
+											<a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'><data:post.newestLinkText/></a>
+										</span>
+									</b:if>
+									<p class='comment-footer'>
+										<b:if cond='data:post.embedCommentForm'>
+											<b:if cond='data:post.allowNewComments'>
+												<b:include data='post' name='comment-form'/>
+											<b:else/>
+												<data:post.noNewCommentsText/>
+											</b:if>
+											<b:elseif cond='data:post.allowComments'/>
+											<a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:postCommentMsg/></a>
+										</b:if>
+									</p>
+								</b:if>
+								<b:if cond='data:showCmtPopup'>
+									<div id='comment-popup'>
+										<iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'/>
+									</div>
+								</b:if>
+								<div id='backlinks-container'>
+									<div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'>
+										<b:include cond='data:post.showBacklinks' data='post' name='backlinks'/>
+									</div>
+								</div>
+							</div>
+						</b:includable>
+  <b:includable id='email_inline_insert'>
+							<div class='panel panel-get-email'>
+								<div class='panel-heading'>
+									<h4 class='text-center'><i class='glyphicon glyphicon-thumbs-up'/> CONHECIMENTO VIP</h4>
+								</div>
+								<div class='panel-body'>
+									<p class='text-center'>
+										<h3 for='mce-EMAIL'>Já pensou em receber conteúdo exclusivo?<br/><small>Então assine abaixo. É grátis!</small></h3>
+									</p>
+									<br/>
+									<form action='//tecnicasdecomposicao.us12.list-manage.com/subscribe/post?u=f5f5406787d2d1ba81f4136c6&amp;id=a3cec4bd94' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+										<input aria-describedby='basic-addon1' class='form-control' id='mce-EMAIL' name='EMAIL' placeholder='coloque seu email aqui' required='' type='email' value=''/>
+										<br/>
+										<div id='mailchimp-antibot'><input name='b_f5f5406787d2d1ba81f4136c6_a3cec4bd94' tabindex='-1' type='text' value=''/></div>
+										<div class='text-center'>
+											<button class='btn btn-danger btn-submeter-email' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'><i class='glyphicon glyphicon-share-alt'/> ASSINAR!</button>
+										</div>
+										<br/>
+									</form>
+									<p class='text-right'><span>Não realizamos spans.</span></p>
+								</div>
+							</div>
+						</b:includable>
+  <b:includable id='feedLinks'>
+  <b:if cond='data:blog.pageType != &quot;item&quot;'> <!-- Blog feed links -->
+    <b:if cond='data:feedLinks'>
+      <div class='blog-feeds'>
+        <b:include data='feedLinks' name='feedLinksBody'/>
+      </div>
+    </b:if>
+
+  <b:else/> <!--Post feed links -->
+    <div class='post-feeds'>
+      <b:loop values='data:posts' var='post'>
+        <b:include cond='data:post.allowComments and data:post.feedLinks' data='post.feedLinks' name='feedLinksBody'/>
+      </b:loop>
+    </div>
+  </b:if>
+</b:includable>
+  <b:includable id='feedLinksBody' var='links'>
+  <div class='feed-links'>
+  <data:feedLinksMsg/>
+  <b:loop values='data:links' var='f'>
+     <a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'><data:f.name/> (<data:f.feedType/>)</a>
+  </b:loop>
+  </div>
+</b:includable>
+  <b:includable id='iframe_comments' var='post'>
+							<b:if cond='data:post.allowIframeComments'>
+								<script expr:src='data:post.iframeCommentSrc' type='text/javascript'/>
+								<div class='cmt_iframe_holder' expr:data-href='data:post.canonicalUrl' expr:data-viewtype='data:post.viewType'/>
+								<b:if cond='data:post.embedCommentForm == &quot;false&quot;'>
+									<a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:postCommentMsg/></a>
+								</b:if>
+							</b:if>
+						</b:includable>
+  <b:includable id='mobile-index-post' var='post'>
+  <div class='mobile-date-outer date-outer'>
+    <b:if cond='data:post.dateHeader'>
+      <div class='date-header'>
+        <span><data:post.dateHeader/></span>
+      </div>
+    </b:if>
+
+    <div class='mobile-post-outer'>
+      <a expr:href='data:post.url'>
+        <h3 class='mobile-index-title entry-title' itemprop='name'>
+          <data:post.title/>
+        </h3>
+
+        <div class='mobile-index-arrow'>&amp;rsaquo;</div>
+
+        <div class='mobile-index-contents'>
+          <b:if cond='data:post.thumbnailUrl'>
+            <div class='mobile-index-thumbnail'>
+              <div class='Image'>
+                <img expr:src='data:post.thumbnailUrl'/>
+              </div>
+            </div>
+          </b:if>
+
+          <div class='post-body'>
+            <b:if cond='data:post.snippet'><data:post.snippet/></b:if>
+          </div>
+        </div>
+
+        <div style='clear: both;'/>
+      </a>
+
+      <div class='mobile-index-comment'>
+        <b:include cond='data:blog.pageType != &quot;static_page&quot;                          and data:post.allowComments                          and data:post.numComments != 0' data='post' name='comment_count_picker'/>
+      </div>
+    </div>
+  </div>
+</b:includable>
+  <b:includable id='mobile-main' var='top'>
+    <!-- posts -->
+    <div class='blog-posts hfeed'>
+
+      <b:include data='top' name='status-message'/>
+
+      <b:if cond='data:blog.pageType == &quot;index&quot;'>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-index-post'/>
+        </b:loop>
+      <b:else/>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-post'/>
+        </b:loop>
+      </b:if>
+    </div>
+
+   <b:include name='mobile-nextprev'/>
+</b:includable>
+  <b:includable id='mobile-nextprev'>
+  <div class='blog-pager' id='blog-pager'>
+    <b:if cond='data:newerPageUrl'>
+      <div class='mobile-link-button' id='blog-pager-newer-link'>
+      <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'>&amp;lsaquo;</a>
+      </div>
+    </b:if>
+
+    <b:if cond='data:olderPageUrl'>
+      <div class='mobile-link-button' id='blog-pager-older-link'>
+      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'>&amp;rsaquo;</a>
+      </div>
+    </b:if>
+
+    <div class='mobile-link-button' id='blog-pager-home-link'>
+    <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+    </div>
+
+    <div class='mobile-desktop-link'>
+      <a class='home-link' expr:href='data:desktopLinkUrl'><data:desktopLinkMsg/></a>
+    </div>
+
+  </div>
+  <div class='clear'/>
+</b:includable>
+  <b:includable id='mobile-post' var='post'>
+  <div class='date-outer'>
+    <b:if cond='data:post.dateHeader'>
+      <h2 class='date-header'><span><data:post.dateHeader/></span></h2>
+    </b:if>
+    <div class='date-posts'>
+      <div class='post-outer'>
+
+        <div class='post hentry uncustomized-post-template' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+          <b:if cond='data:post.thumbnailUrl'>
+            <meta expr:content='data:post.thumbnailUrl' itemprop='image_url'/>
+          </b:if>
+          <meta expr:content='data:blog.blogId' itemprop='blogId'/>
+          <meta expr:content='data:post.id' itemprop='postId'/>
+
+          <a expr:name='data:post.id'/>
+          <b:if cond='data:post.title'>
+            <h3 class='post-title entry-title' itemprop='name'>
+              <b:if cond='data:post.link'>
+                <a expr:href='data:post.link'><data:post.title/></a>
+              <b:elseif cond='data:post.url and data:blog.url != data:post.url'/>
+                <a expr:href='data:post.url'><data:post.title/></a>
+              <b:else/>
+                <data:post.title/>
+              </b:if>
+            </h3>
+          </b:if>
+
+          <div class='post-header'>
+            <div class='post-header-line-1'/>
+          </div>
+
+          <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>
+            <data:post.body/>
+            <div style='clear: both;'/> <!-- clear for photos floats -->
+          </div>
+
+          <div class='post-footer'>
+            <div class='post-footer-line post-footer-line-1'>
+              <span class='post-author vcard'>
+                <b:if cond='data:top.showAuthor'>
+                  <b:if cond='data:post.authorProfileUrl'>
+                    <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                      <meta expr:content='data:post.authorProfileUrl' itemprop='url'/>
+                      <a expr:href='data:post.authorProfileUrl' rel='author' title='author profile'>
+                        <span itemprop='name'><data:post.author/></span>
+                      </a>
+                    </span>
+                  <b:else/>
+                    <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                      <span itemprop='name'><data:post.author/></span>
+                    </span>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-timestamp'>
+                <b:if cond='data:top.showTimestamp'>
+                  <data:top.timestampLabel/>
+                  <b:if cond='data:post.url'>
+                    <meta expr:content='data:post.url.canonical' itemprop='url'/>
+                    <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='published' expr:title='data:post.timestampISO8601' itemprop='datePublished'><data:post.timestamp/></abbr></a>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-comment-link'>
+                <b:include cond='data:blog.pageType not in {&quot;item&quot;,&quot;static_page&quot;}                                  and data:post.allowComments' data='post' name='comment_count_picker'/>
+              </span>
+            </div>
+
+            <div class='post-footer-line post-footer-line-2'>
+              <b:if cond='data:top.showMobileShare'>
+                <div class='mobile-link-button goog-inline-block' id='mobile-share-button'>
+                  <a href='javascript:void(0);'><data:shareMsg/></a>
+                </div>
+              </b:if>
+              <b:if cond='data:top.showDummy'>
+                <div class='goog-inline-block dummy-container'><data:post.dummyTag/></div>
+              </b:if>
+            </div>
+
+          </div>
+        </div>
+
+        <b:include cond='data:blog.pageType in {&quot;static_page&quot;,&quot;item&quot;}' data='post' name='comment_picker'/>
+      </div>
+    </div>
+  </div>
+</b:includable>
+  <b:includable id='nextprev'>
+							<br/>
+							<!-- Pager -->
+							<ul class='pager'>
+								<b:if cond='data:newerPageUrl'>
+    					            <li class='previous'>
+                  						<a expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'><i aria-hidden='true' class='glyphicon glyphicon-chevron-left'/> <data:newerPageTitle/></a>
+                					</li>
+              					</b:if>
+              					<li><a expr:href='data:blog.homepageUrl'><data:homeMsg/></a></li>
+              					<b:if cond='data:olderPageUrl'>
+                					<li class='next'>
+                  						<a expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'><data:olderPageTitle/> <i aria-hidden='true' class='glyphicon glyphicon-chevron-right'/></a>
+                					</li>
+              					</b:if>
+							</ul>
+							<br/>
+						</b:includable>
+  <b:includable id='post'>
+							<b:include data='post' name='post_title'/>
+							<b:include data='post' name='post_info'/>
+							<b:include data='post' name='post_social'/>
+							<b:include data='post' name='post_body'/>
+							<b:include data='post' name='post_social'/>
+							<!-- quickedit pencil -->
+							<b:include data='post' name='postQuickEdit'/>
+							<b:include name='quickedit'/>
+						</b:includable>
+  <b:includable id='postQuickEdit' var='post'>
+							<b:if cond='data:post.editUrl'>
+								<span expr:class='&quot;item-control- &quot; + data:post.adminClass'>
+									<a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'>
+										<img alt='editar post' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+									</a>
+								</span>
+							</b:if>
+						</b:includable>
+  <b:includable id='post_body'>
+							<data:post.body/>
+							<div style='clear: both;'><!-- clear for photos floats --></div>
+						</b:includable>
+  <b:includable id='post_info'>
+							<b:if cond='data:blog.pageType == &quot;item&quot;'>
+								<div class='post_info'>
+									<b:if cond='data:top.showTimestamp'>
+										<i class='glyphicon glyphicon-time'/> <data:post.timestamp/>
+									</b:if>
+									<b:if cond='data:top.showAuthor'>
+										por <a expr:href='data:post.author.aboutme'><data:post.author/></a>
+									</b:if>
+								</div>
+							</b:if>
+						</b:includable>
+  <b:includable id='post_list'>
+							<b:include data='post' name='post_title'/>
+							<div expr:id='&quot;post-body-&quot; + data:post.id'>
+								<b:if cond='data:post.hasJumpLink'>
+									<b:if cond='data:post.snippet'>
+										<b:if cond='data:post.thumbnailUrl'>
+											<div class='row'>
+												<div class='col-md-3 thumbnail-img'>
+													<img alt='data:post.title' expr:src='data:post.thumbnailUrl' height='125'/>
+												</div>
+												<div class='col-md-9'>
+													<p><data:post.snippet/></p>
+													<a expr:href='data:post.url' expr:title='data:post.title'>... <data:post.jumpText/> <i class='glyphicon glyphicon-chevron-right'/><i class='glyphicon glyphicon-chevron-right'/></a>
+												</div>
+											</div>
+										<b:else/>
+											<p><data:post.snippet/></p>
+											<a expr:href='data:post.url' expr:title='data:post.title'>... <data:post.jumpText/> <i class='glyphicon glyphicon-chevron-right'/><i class='glyphicon glyphicon-chevron-right'/></a>
+										</b:if>
+									<b:else/>
+										<data:post.body/>
+										<div style='clear: both;'><!-- clear for photos floats --></div>
+									</b:if>
+								</b:if>
+							</div>
+						</b:includable>
+  <b:includable id='post_social'>
+							<div class='post_social'>
+								<!-- Posicione esta tag onde você deseja que o botão +1 apareça. -->
+								<div id='botao-gmais'>
+									<div class='g-plusone' data-annotation='bubble' data-size='' data-width='300' expr:data-href='data:post.url'/>
+								</div>
+								<!-- Facebook -->
+								<div id='bota-fb'>
+									<div class='fb-share-button' data-layout='button_count' expr:data-href='data:post.url'/>
+									<div id='fb-root'/>
+								</div>
+							</div>
+						</b:includable>
+  <b:includable id='post_title'>
+							<b:if cond='data:post.title'>
+								<b:if cond='data:post.link'>
+									<h2><a expr:href='data:post.link'><data:post.title/></a></h2>
+								<b:else/>
+									<b:if cond='data:post.url'>
+										<b:if cond='data:blog.url != data:post.url'>
+											<h2><a expr:href='data:post.url'><data:post.title/></a></h2>
+										<b:else/>
+											<h1><data:post.title/></h1>
+										</b:if>
+									<b:else/>
+										<h1><data:post.title/></h1>
+									</b:if>
+								</b:if>
+							</b:if>
+						</b:includable>
+  <b:includable id='shareButtons' var='post'>
+  <b:if cond='data:top.showEmailButton'><a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + &quot;&amp;target=email&quot;' expr:title='data:top.emailThisMsg' target='_blank'><span class='share-button-link-text'><data:top.emailThisMsg/></span></a></b:if><b:if cond='data:top.showBlogThisButton'><a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + &quot;&amp;target=blog&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' expr:title='data:top.blogThisMsg' target='_blank'><span class='share-button-link-text'><data:top.blogThisMsg/></span></a></b:if><b:if cond='data:top.showTwitterButton'><a class='goog-inline-block share-button sb-twitter' expr:href='data:post.sharePostUrl + &quot;&amp;target=twitter&quot;' expr:title='data:top.shareToTwitterMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToTwitterMsg/></span></a></b:if><b:if cond='data:top.showFacebookButton'><a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + &quot;&amp;target=facebook&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' expr:title='data:top.shareToFacebookMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToFacebookMsg/></span></a></b:if><b:if cond='data:top.showPinterestButton'><a class='goog-inline-block share-button sb-pinterest' expr:href='data:post.sharePostUrl + &quot;&amp;target=pinterest&quot;' expr:title='data:top.shareToPinterestMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToPinterestMsg/></span></a></b:if><b:if cond='data:top.showPlusOne'><div class='goog-inline-block google-plus-share-container'><data:post.googlePlusShareTag/></div></b:if>
+</b:includable>
+  <b:includable id='status-message'>
+							<b:if cond='data:navMessage'>
+								<div class='status-msg-box text-center'>
+									<data:navMessage/>
+								</div>
+							</b:if>
+						</b:includable>
+  <b:includable id='threaded-comment-form' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <b:if cond='data:mobile'>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/>
+    <b:else/>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    </b:if>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+  <b:includable id='threaded_comment_js' var='post'>
+  <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
+
+  <script type='text/javascript'>
+    (function() {
+      var items = <data:post.commentJso/>;
+      var msgs = <data:post.commentMsgs/>;
+      var config = <data:post.commentConfig/>;
+
+// <![CDATA[
+      var cursor = null;
+      if (items && items.length > 0) {
+        cursor = parseInt(items[items.length - 1].timestamp) + 1;
+      }
+
+      var bodyFromEntry = function(entry) {
+        var text = (entry &&
+                    ((entry.content && entry.content.$t) ||
+                     (entry.summary && entry.summary.$t))) ||
+            '';
+        if (entry && entry.gd$extendedProperty) {
+          for (var k in entry.gd$extendedProperty) {
+            if (entry.gd$extendedProperty[k].name == 'blogger.contentRemoved') {
+              return '<span class="deleted-comment">' + text + '</span>';
+            }
+          }
+        }
+        return text;
+      }
+
+      var parse = function(data) {
+        cursor = null;
+        var comments = [];
+        if (data && data.feed && data.feed.entry) {
+          for (var i = 0, entry; entry = data.feed.entry[i]; i++) {
+            var comment = {};
+            // comment ID, parsed out of the original id format
+            var id = /blog-(\d+).post-(\d+)/.exec(entry.id.$t);
+            comment.id = id ? id[2] : null;
+            comment.body = bodyFromEntry(entry);
+            comment.timestamp = Date.parse(entry.published.$t) + '';
+            if (entry.author && entry.author.constructor === Array) {
+              var auth = entry.author[0];
+              if (auth) {
+                comment.author = {
+                  name: (auth.name ? auth.name.$t : undefined),
+                  profileUrl: (auth.uri ? auth.uri.$t : undefined),
+                  avatarUrl: (auth.gd$image ? auth.gd$image.src : undefined)
+                };
+              }
+            }
+            if (entry.link) {
+              if (entry.link[2]) {
+                comment.link = comment.permalink = entry.link[2].href;
+              }
+              if (entry.link[3]) {
+                var pid = /.*comments\/default\/(\d+)\?.*/.exec(entry.link[3].href);
+                if (pid && pid[1]) {
+                  comment.parentId = pid[1];
+                }
+              }
+            }
+            comment.deleteclass = 'item-control blog-admin';
+            if (entry.gd$extendedProperty) {
+              for (var k in entry.gd$extendedProperty) {
+                if (entry.gd$extendedProperty[k].name == 'blogger.itemClass') {
+                  comment.deleteclass += ' ' + entry.gd$extendedProperty[k].value;
+                } else if (entry.gd$extendedProperty[k].name == 'blogger.displayTime') {
+                  comment.displayTime = entry.gd$extendedProperty[k].value;
+                }
+              }
+            }
+            comments.push(comment);
+          }
+        }
+        return comments;
+      };
+
+      var paginator = function(callback) {
+        if (hasMore()) {
+          var url = config.feed + '?alt=json&v=2&orderby=published&reverse=false&max-results=50';
+          if (cursor) {
+            url += '&published-min=' + new Date(cursor).toISOString();
+          }
+          window.bloggercomments = function(data) {
+            var parsed = parse(data);
+            cursor = parsed.length < 50 ? null
+                : parseInt(parsed[parsed.length - 1].timestamp) + 1
+            callback(parsed);
+            window.bloggercomments = null;
+          }
+          url += '&callback=bloggercomments';
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = url;
+          document.getElementsByTagName('head')[0].appendChild(script);
+        }
+      };
+      var hasMore = function() {
+        return !!cursor;
+      };
+      var getMeta = function(key, comment) {
+        if ('iswriter' == key) {
+          var matches = !!comment.author
+              && comment.author.name == config.authorName
+              && comment.author.profileUrl == config.authorUrl;
+          return matches ? 'true' : '';
+        } else if ('deletelink' == key) {
+          return config.baseUri + '/delete-comment.g?blogID='
+               + config.blogId + '&postID=' + comment.id;
+        } else if ('deleteclass' == key) {
+          return comment.deleteclass;
+        }
+        return '';
+      };
+
+      var replybox = null;
+      var replyUrlParts = null;
+      var replyParent = undefined;
+
+      var onReply = function(commentId, domId) {
+        if (replybox == null) {
+          // lazily cache replybox, and adjust to suit this style:
+          replybox = document.getElementById('comment-editor');
+          if (replybox != null) {
+            replybox.height = '250px';
+            replybox.style.display = 'block';
+            replyUrlParts = replybox.src.split('#');
+          }
+        }
+        if (replybox && (commentId !== replyParent)) {
+          replybox.src = '';
+          document.getElementById(domId).insertBefore(replybox, null);
+          replybox.src = replyUrlParts[0]
+              + (commentId ? '&parentID=' + commentId : '')
+              + '#' + replyUrlParts[1];
+          replyParent = commentId;
+        }
+      };
+
+      var hash = (window.location.hash || '#').substring(1);
+      var startThread, targetComment;
+      if (/^comment-form_/.test(hash)) {
+        startThread = hash.substring('comment-form_'.length);
+      } else if (/^c[0-9]+$/.test(hash)) {
+        targetComment = hash.substring(1);
+      }
+
+      // Configure commenting API:
+      var configJso = {
+        'maxDepth': config.maxThreadDepth
+      };
+      var provider = {
+        'id': config.postId,
+        'data': items,
+        'loadNext': paginator,
+        'hasMore': hasMore,
+        'getMeta': getMeta,
+        'onReply': onReply,
+        'rendered': true,
+        'initComment': targetComment,
+        'initReplyThread': startThread,
+        'config': configJso,
+        'messages': msgs
+      };
+
+      var render = function() {
+        if (window.goog && window.goog.comments) {
+          var holder = document.getElementById('comment-holder');
+          window.goog.comments.render(holder, provider);
+        }
+      };
+
+      // render now, or queue to render when library loads:
+      if (window.goog && window.goog.comments) {
+        render();
+      } else {
+        window.goog = window.goog || {};
+        window.goog.comments = window.goog.comments || {};
+        window.goog.comments.loadQueue = window.goog.comments.loadQueue || [];
+        window.goog.comments.loadQueue.push(render);
+      }
+    })();
+// ]]>
+  </script>
+</b:includable>
+  <b:includable id='threaded_comments' var='post'>
+							<div class='comments' id='comments'>
+								<a name='comments'/>
+								<h4>
+									<data:post.commentLabelFull/>
+									:
+								</h4>
+								<div class='comments-content'>
+									<b:include cond='data:post.embedCommentForm' data='post' name='threaded_comment_js'/>
+									<div id='comment-holder'>
+										<data:post.commentHtml/>
+									</div>
+								</div>
+								<p class='comment-footer'>
+									<b:if cond='data:post.allowNewComments'>
+										<b:include data='post' name='threaded-comment-form'/>
+									<b:else/>
+										<data:post.noNewCommentsText/>
+									</b:if>
+								</p>
+								<b:if cond='data:showCmtPopup'>
+									<div id='comment-popup'>
+										<iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'/>
+									</div>
+								</b:if>
+								<div id='backlinks-container'>
+									<div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'>
+										<b:include cond='data:post.showBacklinks' data='post' name='backlinks'/>
+									</div>
+								</div>
+							</div>
+						</b:includable>
+</b:widget>
+<b:widget id='HTML2' locked='false' mobile='yes' title='Disqus' type='HTML'>
+  <b:widget-settings>
+    <b:widget-setting name='content'><![CDATA[<!-- Disqus comments gadget -->]]></b:widget-setting>
+  </b:widget-settings>
+  <b:includable id='main'>
+							<script type='text/javascript'>
+				                var disqus_shortname = &#39;tecnicasdecomposicao&#39;;
+				                var disqus_blogger_current_url = &quot;<data:blog.canonicalUrl/>&quot;;
+				
+				                if (!disqus_blogger_current_url.length) {
+				                    disqus_blogger_current_url = &quot;<data:blog.url/>&quot;;
+				                }
+				
+				                var disqus_blogger_homepage_url = &quot;<data:blog.homepageUrl/>&quot;;
+				                var disqus_blogger_canonical_homepage_url = &quot;<data:blog.canonicalHomepageUrl/>&quot;;
+				            </script>
+
+							<b:if cond='data:blog.pageType in {&quot;static_page&quot;,&quot;item&quot;}'>
+								<style type='text/css'>
+				                    #comments {display:none;}
+								</style>
+								<script type='text/javascript'>
+				                    (function() {
+				                        var bloggerjs = document.createElement(&#39;script&#39;);
+				                        bloggerjs.type = &#39;text/javascript&#39;;
+				                        bloggerjs.async = true;
+				                        bloggerjs.src = &#39;//&#39;+disqus_shortname+&#39;.disqus.com/blogger_item.js&#39;;
+				                        (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(bloggerjs);
+				                    })();
+								</script>
+							</b:if>
+							<style type='text/css'>
+				                    .post-comment-link { visibility: hidden; }
+							</style>
+							<script type='text/javascript'>
+				                (function() {
+				                    var bloggerjs = document.createElement(&#39;script&#39;);
+				                    bloggerjs.type = &#39;text/javascript&#39;;
+				                    bloggerjs.async = true;
+				                    bloggerjs.src = &#39;http://&#39;+disqus_shortname+&#39;.disqus.com/blogger_index.js&#39;;
+				                    (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(bloggerjs);
+				                })();
+							</script>
+						</b:includable>
+</b:widget>
+</b:section>
+
+			</div><!-- END Blog Entries Column -->
+
+			<!-- Blog Sidebar Widgets Column -->
+			<div class='col-md-3 col-md-pull-9'>
+
+				<aside>
+
+					<!-- Sobre o Autor Well -->
+					<div class='well'>
+						<h3 class='text-center'><img alt='Carlos A. Correia' id='imagem-do-autor' src='http://4.bp.blogspot.com/-5s3RZe3faAA/VkYbW56lPlI/AAAAAAAAAsE/48eSow9HoDU/s1600/Foto%2BPerfil%2B1%2Bretoq%2B2.jpg'/></h3>
+						<p class='text-center'>
+							<hr/>
+							<div class='text-center'>
+								<label><a expr:href='data:blog.homepageUrl + &quot;p/sobre-o-carlos-correia.html&quot;'>Carlos A. Correia</a></label>
+							</div>
+							<hr/>
+							Empreendedor e Intra- empreendedor. Músico-compositor e autor de livros. Formado em engenharia, adora tecnologia, música, ciência
+							<a expr:href='data:blog.homepageUrl + &quot;p/sobre-o-carlos-correia.html&quot;'>... clique aqui para conhecer mais sobre o autor</a>
+						</p>
+					</div>
+
+					<!-- Seguidores -->
+					<b:section class='well' id='aside-seguidores'>
+<b:widget id='HTML3' locked='false' title='Facebook' type='HTML'>
+  <b:widget-settings>
+    <b:widget-setting name='content'/>
+  </b:widget-settings>
+  <b:includable id='main'>
+								<h4 class='title text-center'>SEGUIDORES</h4>
+								<div id='facebook-page'>
+									<div id='fb-root'/>
+									<script>(function(d, s, id) {
+									  var js, fjs = d.getElementsByTagName(s)[0];
+									  if (d.getElementById(id)) return;
+									  js = d.createElement(s); js.id = id;
+									  js.src = &quot;//connect.facebook.net/pt_BR/sdk.js#xfbml=1&amp;version=v2.5&quot;;
+									  fjs.parentNode.insertBefore(js, fjs);
+									}(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));
+									</script>
+									<div class='fb-page' data-adapt-container-width='true' data-hide-cover='true' data-href='https://www.facebook.com/tecnicasdecomposicao' data-show-facepile='true' data-show-posts='false' data-small-header='true'><div class='fb-xfbml-parse-ignore'><blockquote cite='https://www.facebook.com/tecnicasdecomposicao'><a href='https://www.facebook.com/tecnicasdecomposicao'>Técnicas de Composição</a></blockquote></div></div>
+								</div>
+								<b:include name='quickedit'/>
+							</b:includable>
+</b:widget>
+<b:widget id='Followers1' locked='false' title='' type='Followers'>
+  <b:widget-settings>
+    <b:widget-setting name='borderColorTransparent'>true</b:widget-setting>
+    <b:widget-setting name='useTemplateDefaultStyles'>true</b:widget-setting>
+    <b:widget-setting name='contentSecondaryTextColor'>#000000</b:widget-setting>
+    <b:widget-setting name='contentHeadlineColor'>#000000</b:widget-setting>
+    <b:widget-setting name='endcapTextColor'>#444444</b:widget-setting>
+    <b:widget-setting name='contentTextColor'>#444444</b:widget-setting>
+    <b:widget-setting name='contentSecondaryLinkColor'>#FFFFFF</b:widget-setting>
+    <b:widget-setting name='endcapLinkColor'>#000000</b:widget-setting>
+    <b:widget-setting name='contentLinkColor'>#000000</b:widget-setting>
+  </b:widget-settings>
+  <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot; and data:codeSnippet != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <div expr:id='data:widget.instanceId + &quot;-wrapper&quot;'>
+      <b:if cond='data:codeSnippet != &quot;&quot;'>
+        <div style='margin-right:2px;'>
+          <data:codeSnippet/>
+        </div>
+      </b:if>
+    </div>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+</b:widget>
+</b:section>
+
+					<!-- painéis -->
+					<b:section aria-multiselectable='true' class='panel-group' id='paineis' role='tablist'>
+<b:widget id='PopularPosts1' locked='false' title='Postagens populares' type='PopularPosts' version='1'>
+  <b:widget-settings>
+    <b:widget-setting name='numItemsToShow'>4</b:widget-setting>
+    <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+    <b:widget-setting name='showSnippets'>true</b:widget-setting>
+    <b:widget-setting name='timeRange'>ALL_TIME</b:widget-setting>
+  </b:widget-settings>
+  <b:includable id='main'>
+								<div class='panel panel-default' id='painel-categorias'>
+									<div class='panel-heading' id='headingOne' role='tab'>
+										<a aria-controls='collapseOne' aria-expanded='true' data-parent='#accordion' data-toggle='collapse' href='#collapseOne' role='button'>
+											<h4 class='text-center'>ARTIGOS POPULARES <i aria-hidden='true' class='glyphicon glyphicon-chevron-down' style='float: right'/></h4>
+										</a>
+									</div>
+									<div aria-labelledby='headingOne' class='panel-collapse collapse in' id='collapseOne' role='tabpanel'>
+										<div class='list-group lista_artigos_populares'>
+											<b:loop values='data:posts' var='post'>
+												<a class='list-group-item' expr:href='data:post.href'><h2 class='media-heading'><small><i aria-hidden='true' class='glyphicon glyphicon-triangle-right'/></small> <data:post.title/></h2></a>
+											</b:loop>
+										</div>
+									</div>
+								</div>
+							</b:includable>
+</b:widget>
+<b:widget id='HTML5' locked='false' title='Painel Categorias' type='HTML'>
+  <b:widget-settings>
+    <b:widget-setting name='content'>sdf</b:widget-setting>
+  </b:widget-settings>
+  <b:includable id='main'>
+								<div class='panel panel-default margem-acima' id='painel-artigos-populares'>
+									<div class='panel-heading' id='headingTwo' role='tab'>
+										<a aria-controls='collapseTwo' aria-expanded='true' class='' data-parent='#accordion' data-toggle='collapse' href='#collapseTwo' role='button'>
+											<h4 class='text-center'>CATEGORIAS <i aria-hidden='true' class='glyphicon glyphicon-chevron-down' style='float: right'/></h4>
+										</a>
+									</div>
+									<div aria-labelledby='headingTwo' class='panel-collapse collapse in' id='collapseTwo' role='tabpanel'>
+										<div class='list-group lista_categorias'>
+											<a class='list-group-item' href='http://www.tecnicasdecomposicao.com.br/search/label/Análise Musical'><h2><small><i aria-hidden='true' class='glyphicon glyphicon-triangle-right'/></small> Análise Musical</h2></a>
+											<a class='list-group-item' href='http://www.tecnicasdecomposicao.com.br/search/label/Técnicas de Construção Musical'><h2><small><i aria-hidden='true' class='glyphicon glyphicon-triangle-right'/></small> Técnicas de Construção Musical</h2></a>
+											<a class='list-group-item' href='http://www.tecnicasdecomposicao.com.br/search/label/Artigos e Teorias'><h2><small><i aria-hidden='true' class='glyphicon glyphicon-triangle-right'/></small> Artigos e Teorias</h2></a>
+							                <a class='list-group-item' href='http://www.tecnicasdecomposicao.com.br/search/label/Debates - Depoimentos - Opiniões'><h2><small><i aria-hidden='true' class='glyphicon glyphicon-triangle-right'/></small> Debates, Depoimentos, Opiniões</h2></a>
+							                <a class='list-group-item' href='http://www.tecnicasdecomposicao.com.br/search/label/Novidades e Notícias'><h2><small><i aria-hidden='true' class='glyphicon glyphicon-triangle-right'/></small> Novidades e Notícias</h2></a>
+										</div>
+									</div>
+								</div>
+								<b:include name='quickedit'/>
+							</b:includable>
+</b:widget>
+<b:widget id='HTML6' locked='false' title='Painel Outros' type='HTML'>
+  <b:widget-settings>
+    <b:widget-setting name='content'>dg</b:widget-setting>
+  </b:widget-settings>
+  <b:includable id='main'>
+								<div class='panel panel-default margem-acima' id='painel-outros'>
+									<div class='panel-heading' id='headingThree' role='tab'>
+										<a aria-controls='collapseThree' aria-expanded='true' class='' data-parent='#accordion' data-toggle='collapse' href='#collapseThree' role='button'>
+											<h4 class='text-center'>OUTROS <i aria-hidden='true' class='glyphicon glyphicon-chevron-down' style='float: right'/></h4>
+										</a>
+									</div>
+									<div aria-labelledby='headingThree' class='panel-collapse collapse in' id='collapseThree' role='tabpanel'>
+										<div class='panel-body'>
+											<p><i aria-hidden='true' class='glyphicon glyphicon-triangle-right'/> Quer conhecer minhas músicas? Clique <a href='http://componist.blogspot.com/' target='_blank'>aqui agora</a>.</p>
+											<p><i aria-hidden='true' class='glyphicon glyphicon-triangle-right'/> Abaixe o ebook &quot;Cartilha de Regiões Harmônicas&quot; <b>GRATUITAMENTE</b>!<br/><br/><a href='http://bit.ly/eb-CRH-new' target='_blank'><img alt='ebook Cartilha de Regiões Harmônicas' src='//3.bp.blogspot.com/-8_F5BRnJG3s/VqZgXY5rdOI/AAAAAAAAAyM/skj4uboC11Y/s1600/capa%2Bcartilha%2Btipo%2B2%2Ba.png'/></a>.</p>
+										</div>
+										<br/>
+									</div>
+								</div>
+								<b:include name='quickedit'/>
+							</b:includable>
+</b:widget>
+</b:section>
+
+	
+					<div id='get-email-lateral'>
+						<div class='panel panel-get-email'>
+							<div class='panel-heading'>
+								<h4 class='text-center'><i class='glyphicon glyphicon-thumbs-up'/> CONHECIMENTO VIP</h4>
+							</div>
+							<div class='panel-body'>
+								<p class='text-center'>
+									<h3 for='mce-EMAIL'>Já pensou em receber conteúdo exclusivo?<br/><small>Então assine abaixo. É grátis!</small></h3>
+								</p>
+								<br/>
+								<form action='//tecnicasdecomposicao.us12.list-manage.com/subscribe/post?u=f5f5406787d2d1ba81f4136c6&amp;id=a3cec4bd94' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+									<input aria-describedby='basic-addon1' class='form-control' id='mce-EMAIL' name='EMAIL' placeholder='coloque seu email aqui' required='' type='email' value=''/>
+									<br/>
+									<div id='mailchimp-antibot'><input name='b_f5f5406787d2d1ba81f4136c6_a3cec4bd94' tabindex='-1' type='text' value=''/></div>
+									<div class='text-center'>
+										<button class='btn btn-danger btn-submeter-email' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'><i class='glyphicon glyphicon-share-alt'/> ASSINAR!</button>
+									</div>
+									<br/>
+								</form>
+								<p class='text-right'><span>Não realizamos spans.</span></p>
+							</div>
+						</div>
+					</div>
+
+				</aside>
+
+			</div><!-- END Blog Sidebar Widgets Column -->
+
+		</div><!-- /.row -->
+
+	</div><!-- /.container -->
+
+	<!-- Footer -->
+	<footer>
+		<b:section class='row footer-faixa-1' id='footer-1' showaddelement='yes'>
+<b:widget id='HTML1' locked='false' title='footer-faixa-1' type='HTML'>
+  <b:widget-settings>
+    <b:widget-setting name='content'><![CDATA[<div class="container"></div>]]></b:widget-setting>
+  </b:widget-settings>
+  <b:includable id='main'>
+				<div class='container'>
+					<div class='col-lg-4 footer-faixa-1-conteudo'>
+						<div class='input-group footer-busca'>
+							<input class='form-control' placeholder='buscar no blog técnicas de composição' type='text'/>
+							<span class='input-group-btn'>
+								<button class='btn btn-default' type='button'>
+									<span class='glyphicon glyphicon-search'/>
+								</button>
+							</span>
+						</div>
+					</div>
+					<div class='col-lg-8 footer-faixa-1-conteudo text-center center-block'>
+						<p>
+							<a href='https://www.facebook.com/tecnicasdecomposicao'><i class='fa fa-facebook-square fa-4x social' id='social-fb'/></a>
+							<a href='https://twitter.com/gutovysk'><i class='fa fa-twitter-square fa-4x social' id='social-tw'/></a>
+							<a href='https://plus.google.com/+tecnicasdecomposicao-page'><i class='fa fa-google-plus-square fa-4x social' id='social-gp'/></a>
+							<a href='//www.tecnicasdecomposicao.com.br/p/contato.html'><i class='fa fa-envelope-square fa-4x social' id='social-em'/></a>
+						</p>
+					</div>
+				</div>
+				</b:includable>
+</b:widget>
+</b:section>
+
+		<b:section class='row footer-faixa-2' id='footer-2' showaddelement='yes'>
+<b:widget id='HTML4' locked='false' title='' type='HTML'>
+  <b:widget-settings>
+    <b:widget-setting name='content'>&lt;div class=&quot;row footer-faixa-2&quot;&gt;
+      			&lt;div class=&quot;container&quot;&gt;
+      				&lt;div class=&quot;col-lg-12 footer-faixa-2-conteudo text-center&quot;&gt;
+      					&lt;p&gt;&amp;#169; Técnicas de Composição 2009-2015&lt;/p&gt;
+      				&lt;/div&gt;
+      			&lt;/div&gt;
+      		&lt;/div&gt;</b:widget-setting>
+  </b:widget-settings>
+  <b:includable id='main'>
+					<div class='container'>
+						<div class='col-lg-12 footer-faixa-2-conteudo text-center'>
+							<p>&#169; Técnicas de Composição 2009-2016</p>
+						</div>
+					</div>
+				</b:includable>
+</b:widget>
+</b:section>
+	</footer>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'/>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script crossorigin='anonymous' integrity='sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==' src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'/>
+    
+    <!--script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script-->
+    <script src='http://bigspotteddog.github.io/ScrollToFixed/jquery-scrolltofixed-min.js'/>
+  	<!--script src="js/jquery.blogslideshow.min.js" type="text/javascript"></script-->
+    <script language='JavaScript'>
+    	$(document).ready(function() {
+    			$(&#39;#get-email-lateral&#39;).scrollToFixed({ marginTop: 110 });
+    			//$(&#39;a[rel=blogslideshow]&#39;).bsShow();
+
+          /* var intervalo_mostrar_inscricao = setInterval(function () {
+              alert(&quot;ok&quot;);
+              // para apagar clearInterval(intervalo_mostrar_inscricao);
+              },30000); */
+
+          function showInscricaoModal() {
+            if (!window.sessionStorage.getItem(&quot;popup-exibida&quot;))
+            {
+                 $(&#39;#inscricaoModal&#39;).modal(&#39;show&#39;);
+                 window.sessionStorage.setItem(&quot;popup-exibida&quot;, &quot;1&quot;);
+            }
+          }
+
+
+          setTimeout(showInscricaoModal(),1000);
+
+		  });
+  	</script>
+
+    <!--G+ Posicione esta tag no cabeçalho ou imediatamente antes da tag de fechamento do corpo. -->
+    <script async='async' defer='defer' src='https://apis.google.com/js/platform.js'>
+      {lang: &#39;pt-BR&#39;}
+    </script>
+
+    <!-- Facebook compartilhar -->
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = &quot;//connect.facebook.net/pt_BR/sdk.js#xfbml=1&amp;version=v2.5&quot;;
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, &#39;script&#39;, &#39;facebook-jssdk&#39;))
+    </script>
+    <!-- GA -->
+    <script>
+      (function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,&#39;script&#39;,&#39;//www.google-analytics.com/analytics.js&#39;,&#39;ga&#39;);
+
+      ga(&#39;create&#39;, &#39;UA-29996245-1&#39;, &#39;auto&#39;);
+      ga(&#39;send&#39;, &#39;pageview&#39;);
+
+    </script>
+<!-- Global site tag (gtag.js) - Google Ads: 991927857 -->
+<script async='async' src='https://www.googletagmanager.com/gtag/js?id=AW-991927857'/>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag(&#39;js&#39;, new Date());
+
+  gtag(&#39;config&#39;, &#39;AW-991927857&#39;);
+</script>
+<!-- Event snippet for [TESTES] Técnicas de Composição - Vídeos YT conversion page -->
+<!-- esse código deve ficar somente na página de conversáo do Lead -->
+<script>
+  gtag(&#39;event&#39;, &#39;conversion&#39;, {&#39;send_to&#39;: &#39;AW-991927857/fa9tCMm4wKEBELG8_tgD&#39;});
+</script>
+
+  </body>
+
+
+</html>

@@ -52,8 +52,6 @@
   <link rel="stylesheet" href="https://www.tecnicasdecomposicao.com/assets/snow-plugins/style.css"/>
   <link rel="stylesheet" href="https://www.tecnicasdecomposicao.com/assets/theme/css/style.css"/>
   <link rel="preload" as="style" href="https://www.tecnicasdecomposicao.com/assets/mobirise/css/mbr-additional.css"/>
-  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css"/>
- 
 
 
 &lt;style type=&quot;text/css&quot;&gt;&lt;!-- /*<b:skin><![CDATA[*/]]></b:skin>
@@ -111,7 +109,7 @@
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="https://www.tecnicasdecomposicao.com.br">
-                        <img src="assets/images/logo-divulgacao-276x95.jpg" alt="Técnicas de Composição Musical" title="Técnicas de Composição Musical" style="height: 3.8rem;"/>
+                        <img src="https://www.tecnicasdecomposicao.com/assets/images/logo-divulgacao-276x95.jpg" alt="Técnicas de Composição Musical" title="Técnicas de Composição Musical" style="height: 3.8rem;"/>
                     </a>
                 </span>
                 
@@ -135,21 +133,22 @@
     <b:if cond='data:blog.pageType == "index"'>
       <!-- aqui o código html puro que aparece como landing page -->
 
-<section class="engine"><a href="https://tecnicasdecomposicao.com.br"></a></section>
-<section class="cid-s7R4cNkoz0" id="image2-3">
-    <figure class="mbr-figure">
-        <div class="image-block" style="width: 100%;">
-            <img src="file:///C:/Users/Note/AppData/Local/Mobirise.com/Mobirise/gutovysk_0040yahoo_002ecom_002ebr/addons/mobirise4/components" alt="Banner Técnicas de Composição" title="Banner Técnicas de Composição"/>
-            
+<section class="mbr-section content4 cid-sobLKx3t5s" id="content4-2i">
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-5">
+                    TÉCNICAS DE COMPOSIÇÃO</h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">O melhor site para aprender a compor música no mais alto nível</h3>
+            </div>
         </div>
-    </figure>
+    </div>
 </section>
 
-<section class="cid-s7R4xEX1Si" id="image2-4">
+<section class="cid-sobLzZljmM" id="image2-2h">
     <figure class="mbr-figure">
-        <div class="image-block" style="width: 100%;">
-            <img src="assets/images/imagens-carrossel-1-2268x601.png" alt="Banner Técnicas de Composição" title="Banner Técnicas de Composição"/>
-            
+        <div class="image-block" style="width: 68%;">
+            <img src="https://www.tecnicasdecomposicao.com/assets/images/imagens-carrossel-1-2268x601.png" alt="Banner Técnicas de Composição" title="Banner Técnicas de Composição"/>
         </div>
     </figure>
 </section>
@@ -239,7 +238,7 @@
                 <div class="panel-item p-3">
                     <div class="card-block">
                         <div class="testimonial-photo">
-                            <img src="assets/images/alberto-povoa-240x258.jpg" alt="" title=""/>
+                            <img src="https://www.tecnicasdecomposicao.com/assets/images/alberto-povoa-240x258.jpg" alt="" title=""/>
                         </div>
                         <p class="mbr-text mbr-fonts-style display-7">
                            Sempre assisto suas aulas e são excelentes! Sempre aprendo algo de novo e útil. O seu enfoque para composição fornecendo ferramentas e ideias tem me motivado bastante! Fico agradecido por compartilhar seu conhecimento de uma forma de fácil entendimento.
@@ -256,7 +255,7 @@
                 <div class="panel-item p-3">
                     <div class="card-block">
                         <div class="testimonial-photo">
-                            <img src="assets/images/jeff-hetfield-176x176.jpg" alt="" title=""/>
+                            <img src="https://www.tecnicasdecomposicao.com/assets/images/jeff-hetfield-176x176.jpg" alt="" title=""/>
                         </div>
                         <p class="mbr-text mbr-fonts-style display-7">
                            melhor canal de composicao no YT!!! Os seus vídeos me ajudam muito na minha evolução musical!<br/><br/> obrigado por compartilhar os conteúdos..
@@ -272,7 +271,7 @@
                 <div class="panel-item p-3">
                     <div class="card-block">
                         <div class="testimonial-photo">
-                            <img src="assets/images/vinicius-longato-240x246.jpg" alt="" title=""/>
+                            <img src="https://www.tecnicasdecomposicao.com/assets/images/vinicius-longato-240x246.jpg" alt="" title=""/>
                         </div>
                         <p class="mbr-text mbr-fonts-style display-7">
                            O Carlos tem um conhecimento brilhante e o compartilha com uma generosidade singular através das lives e do seu site. Ele é um dos responsáveis por formar o meu conhecimento composicional, assim como o de muitos outros.
@@ -295,7 +294,7 @@
             <div class="col-12 col-md-8">
                 <div class="media-container-row">
                     <div class="mbr-figure" style="width: 70%;">
-                      <img src="assets/images/foto-perfil-1-retoq-2-436x480.jpg" alt="compositor Carlos Correia" title="compositor Carlos Correia"/>  
+                      <img src="https://www.tecnicasdecomposicao.com/assets/images/foto-perfil-1-retoq-2-436x480.jpg" alt="compositor Carlos Correia" title="compositor Carlos Correia"/>  
                     </div>
                     <div class="media-content">
                         <div class="mbr-section-text">
@@ -383,6 +382,7 @@
         </div>
     </div>
 </section>
+
 <!--*****************************************************************************><-->
 
     <!-- colocar também o código que mostra a lista dos posts -->
@@ -457,7 +457,7 @@
         <section class="cid-soaqN90k99" id="image2-20">
             <figure class="mbr-figure">
                 <div class="image-block" style="width: 100%;">
-                    <img src="assets/images/partituramozart-1600x228.jpg" alt="Banner Técnicas de Composição" title="Banner Técnicas de Composição"/>            
+                    <img src="https://www.tecnicasdecomposicao.com/assets/images/partituramozart-1600x228.jpg" alt="Banner Técnicas de Composição" title="Banner Técnicas de Composição"/>            
                 </div>
             </figure>
         </section>
@@ -518,6 +518,22 @@
     <!-- aqui o código html final que for comum a todas as páginas -->
 
 &lt;!--</body>--&gt; &lt;/body&gt;
-
+  <script src="https://www.tecnicasdecomposicao.com/assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="https://www.tecnicasdecomposicao.com/assets/popper/popper.min.js"></script>
+  <script src="https://www.tecnicasdecomposicao.com/assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.5"></script>
+  <script src="https://www.tecnicasdecomposicao.com/assets/facebook-plugin/facebook-script.js"></script>
+  <script src="https://www.tecnicasdecomposicao.com/assets/tether/tether.min.js"></script>
+  <script src="https://www.tecnicasdecomposicao.com/assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="https://www.tecnicasdecomposicao.com/assets/viewportchecker/jquery.viewportchecker.js"></script>
+  <script src="https://www.tecnicasdecomposicao.com/assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="https://www.tecnicasdecomposicao.com/assets/dropdown/js/nav-dropdown.js"></script>
+  <script src="https://www.tecnicasdecomposicao.com/assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="https://www.tecnicasdecomposicao.com/assets/snow-plugins/schnee.js"></script>
+  <script src="https://www.tecnicasdecomposicao.com/assets/theme/js/script.js"></script>
+  
+  <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5c880920200ac0001700be81&amp;product=sticky-share-buttons" async="async"></script>
+ <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+    <input name="animation" type="hidden"/>
 
 </html>

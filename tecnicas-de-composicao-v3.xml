@@ -14,7 +14,6 @@
     <meta name='keywords' content='composição, como compor uma música, análise, música clássica, música erudita, música popular, canção'/>
     <meta name="author" content="Carlos Correia - Técnicas de Composição Musical"/>
 
-    <link rel="shortcut icon" href="https://4.bp.blogspot.com/-v8atMSK4DXw/WdWEmIJJk-I/AAAAAAAABNY/Fvp-myE3Kjkrcg0-NnbC1IBV8FL60Tp9ACLcBGAs/s1600/faviicon-MPL-32.png" type="image/x-icon"/>
     
 
     <b:if cond='data:blog.pageType == "index"'>
@@ -118,14 +117,14 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
-                    <a class="nav-link link text-primary display-4" href="cursos-online-composicao-harmonia.html">
+                    <a class="nav-link link text-primary display-4" href="https://www.tecnicasdecomposicao.com/cursos-online-composicao-harmonia.html">
                         Cursos Online</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link link text-primary display-4" href="ebooks-composicao-harmonia.html">
+                    <a class="nav-link link text-primary display-4" href="https://www.tecnicasdecomposicao.com/ebooks-composicao-harmonia.html">
                         Ebooks</a>
                 </li><li class="nav-item"><a class="nav-link link text-primary display-4" href="https://www.tecnicasdecomposicao.com.br/#artigos">
-                        Artigos</a></li><li class="nav-item"><a class="nav-link link text-primary display-4" href="videos-composicao-harmonia.html">
+                        Artigos</a></li><li class="nav-item"><a class="nav-link link text-primary display-4" href="https://www.tecnicasdecomposicao.com/videos-composicao-harmonia.html">
                         Aulas ao Vivo</a></li></ul>
             
         </div>
@@ -414,6 +413,42 @@
               </div>
             </div>
           </section>
+          <section class="header1 cid-soaqN6xP3N" id="header16-1v">
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-10 align-center">
+                        <div class="mbr-section-btn">
+                          <b:if cond='data:olderPageUrl'>
+                            <a class="btn btn-md btn-primary-outline display-4" expr:href='data:olderPageUrl'><span class="fas fa-angle-double-left mbr-iconfont mbr-iconfont-btn"></span>ANTERIOR</a>
+                          </b:if>
+                          <a class="btn btn-md btn-primary-outline display-4" href="https://www.tecnicasdecomposicao.com.br/#artigos"><span class="fas fa-circle mbr-iconfont mbr-iconfont-btn"></span>MAIS RECENTE</a>
+                          <b:if cond='data:newerPageUrl'>
+                            <a class="btn btn-md btn-primary-outline display-4" expr:href='data:newerPageUrl'><span class="fas fa-angle-double-right mbr-iconfont mbr-iconfont-btn"></span>POSTERIOR</a>
+                          </b:if>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <b:if cond='data:newerPageUrl'>
+            <div class='mobile-link-button' id='blog-pager-newer-link'>
+            <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'>&amp;lsaquo; 111</a>
+            </div>
+          </b:if>
+
+    <b:if cond='data:olderPageUrl'>
+      <div class='mobile-link-button' id='blog-pager-older-link'>
+      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'>&amp;rsaquo; 222</a>
+      </div>
+    </b:if>
+
+    <div class='mobile-link-button' id='blog-pager-home-link'>
+    <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+    </div>
+
+    <div class='mobile-desktop-link'>
+      <a class='home-link' expr:href='data:desktopLinkUrl'><data:desktopLinkMsg/></a>
+    </div>
         </b:includable>
       </b:widget>
     </b:section>

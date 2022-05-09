@@ -167,6 +167,24 @@
     </div>
   <div class="collapse" id="collapseEUQUERO">
   <div class="card card-body">
+          <div id="elements"></div>
+      <script src="https://cdn.eduzzcdn.com/sun/bridge/bridge.js"></script>
+      <script>
+        (function () {
+          const load = function () {
+              window.Eduzz.Checkout.init({
+                contentId: 1384344,
+                target: "elements",
+                errorCover: false
+              });
+          }
+          if (document.readyState === 'complete') {
+              load();
+              return;
+          }
+          window.addEventListener('load', load);
+        })();
+      </script>
     href="https://sun.eduzz.com/726303"
   </div>
 </div>

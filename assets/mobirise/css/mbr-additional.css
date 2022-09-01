@@ -1201,8 +1201,17 @@ section.lazy-placeholder:after {
 .cid-tgcgBycgne .mbr-section-subtitle {
   color: #efefef;
 }
+.cid-tgcnDd0zZL {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #efefef;
+}
+.cid-tgcnDd0zZL .mbr-text,
+.cid-tgcnDd0zZL blockquote {
+  color: #767676;
+}
 .cid-sdj6kIB3LY {
-  padding-top: 90px;
+  padding-top: 0px;
   padding-bottom: 90px;
   background-color: #efefef;
 }

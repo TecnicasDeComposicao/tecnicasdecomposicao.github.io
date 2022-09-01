@@ -393,7 +393,7 @@
     <b:section id='postagens' showaddelement='yes'>
       <b:widget id='Blog1' locked='true' title='Postagens no blog' type='Blog'>
         <b:includable id='main'>
-          <section class="features3 cid-soaqN5AoIU" id="features3-1u">
+          <section class="features3 cid-sdjiLsDqX2" id="features3-c">
             <div class="container">
               <div class="media-container-row row row-cols-1 row-cols-md-3 g-4">
                 <b:loop values='data:posts' var='post'>
@@ -414,7 +414,7 @@
               </div>
             </div>
           </section>
-          <section class="header1 cid-soaqN6xP3N" id="header16-1v">
+          <section class="header1 cid-sdjiVVgwRO" id="header16-g">
             <div class="container">
                 <div class="row justify-content-md-center">
                     <div class="col-md-10 align-center">
@@ -493,7 +493,7 @@
               </div-->
 
 
-<section class="mbr-section content6 cid-soaqN75TtV" id="content6-1w">
+<section class="mbr-section content6 cid-snNOoT0AEc" id="content6-r">
     <div class="container">
         <div class="media-container-row">
             <div class="col-12 col-md-8">
@@ -512,7 +512,7 @@
     </div>
 </section>
 
-<section class="mbr-section content7 cid-soaqN7L8wH" id="content7-1x">
+<section class="mbr-section content7 cid-snNOpDtLNU" id="content7-s">
     <div class="container">
         <div class="media-container-row">
             <div class="col-12 col-md-8">
@@ -532,7 +532,7 @@
     </div>
 </section>
 
-<section class="mbr-section content6 cid-soaqN8blpp" id="content6-1y">
+<section class="mbr-section content6 cid-snNPvziNDF" id="content6-t">
     <div class="container">
         <div class="media-container-row">
             <div class="col-12 col-md-8">
@@ -551,7 +551,7 @@
     </div>
 </section>
 
-<section class="mbr-section content7 cid-soaqN8DcSh" id="content7-1z">
+<section class="mbr-section content7 cid-snNPX3L61p" id="content7-u">
     <div class="container">
         <div class="media-container-row">
             <div class="col-12 col-md-8">

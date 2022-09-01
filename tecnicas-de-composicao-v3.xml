@@ -93,10 +93,10 @@
 <!-- end GA -->
 <!-- /Analytics -->
 
-
+<!-- versao 3.1 de 2022-09-01 -->
     <!-- aqui código html da NAV e Header (o que for comum a todas as páginas) -->
 
-  <section class="menu cid-soaqMYIRje" once="menu" id="menu2-1k">
+  <section class="menu cid-t53O6zfkj0" once="menu" id="menu2-v">
     <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <div class="hamburger">
@@ -116,43 +116,42 @@
             </div>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
-                    <a class="nav-link link text-primary display-4" href="https://www.tecnicasdecomposicao.com/cursos-online-composicao-harmonia.html">
-                        Cursos Online</a>
+            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+                <li class="nav-item">
+                    <a class="nav-link link text-primary display-4" href="cursos-online-composicao-harmonia.html">Cursos Online</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link link text-primary display-4" href="https://www.tecnicasdecomposicao.com/ebooks-composicao-harmonia.html">
-                        Ebooks</a>
-                </li><li class="nav-item"><a class="nav-link link text-primary display-4" href="https://www.tecnicasdecomposicao.com.br/#artigos">
-                        Artigos</a></li><li class="nav-item"><a class="nav-link link text-primary display-4" href="https://www.tecnicasdecomposicao.com/videos-composicao-harmonia.html">
-                        Aulas ao Vivo</a></li></ul>
-            
+                    <a class="nav-link link text-primary display-4" href="ebooks-composicao-harmonia-teoria-musical.html">Ebooks</a>
+                </li>
+                <li class="nav-item"><a class="nav-link link text-primary display-4" href="https://www.tecnicasdecomposicao.com.br/#artigos">Artigos</a>
+                </li>
+                <li class="nav-item"><a class="nav-link link text-primary display-4" href="videos-composicao-harmonia.html">Aulas ao Vivo</a>
+                </li>
+            </ul>
         </div>
     </nav>
-</section>
+  </section>
 
 <!-- INDEX *****************************************************************************><-->
     <b:if cond='data:blog.pageType == "index"'>
       <!-- aqui o código html puro que aparece como landing page -->
 
-<section class="mbr-section content4 cid-sobLKx3t5s" id="content4-2i">
-    <div class="container">
+<section class="cid-s7R4xEX1Si" id="image2-4">
+    <figure class="mbr-figure">
+        <div class="image-block" style="width: 100%;">
+            <img src="https://www.tecnicasdecomposicao.com/assets/images/imagens-carrossel-1-2268x601.png" alt="Cursos Online de Composição Musical" title="Cursos Online de Composição Musical"/>
+        </div>
+    </figure>
+</section>
+
+<section class="mbr-section content4 cid-t3ed69RHLs" id="content4-1r">
+    <div class="fluid">
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
-                <h2 class="align-center pb-3 mbr-fonts-style display-5">
-                    TÉCNICAS DE COMPOSIÇÃO</h2>
-                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">O melhor site para aprender a compor música no mais alto nível</h3>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Os melhores <strong>CURSOS </strong>e <strong>EBOOKS </strong>para você se tornar o <strong>melhor COMPOSITOR</strong></h3>
             </div>
         </div>
     </div>
-</section>
-
-<section class="cid-sobLzZljmM" id="image2-2h">
-    <figure class="mbr-figure">
-        <div class="image-block" style="width: 68%;">
-            <img src="https://www.tecnicasdecomposicao.com/assets/images/imagens-carrossel-1-2268x601.png" alt="Banner Técnicas de Composição" title="Banner Técnicas de Composição"/>
-        </div>
-    </figure>
 </section>
 
 <section class="features3 cid-s7RAz4hb9N" id="features3-5">
@@ -167,11 +166,9 @@
                             Aprenda <strong>COM QUEM SABE FAZER</strong>. Acelere seu aprendizado e obtenha os melhores resultados com os nossos cursos online!
                         </p>
                     </div>
-                    <div class="mbr-section-btn text-center"><a href="cursos-online-composicao-harmonia.html" class="btn btn-success display-4">
-                            SAIBA MAIS</a></div>
+                    <div class="mbr-section-btn text-center"><a href="https://mobirise.co" class="btn btn-success display-4">SAIBA MAIS</a></div>
                 </div>
             </div>
-
             <div class="card p-3 col-12 col-md-6 col-lg-3">
                 <div class="card-wrapper">
                     <div class="card-box">
@@ -180,37 +177,41 @@
                         <p class="mbr-text mbr-fonts-style display-7">
                             Nossos ebooks ensinam <strong>COMO SE FAZER NA PRÁTICA</strong> para você obter ótimos resultados! Coloque em prática o seu conhecimento.</p>
                     </div>
-                    <div class="mbr-section-btn text-center"><a href="ebooks-composicao-harmonia.html" class="btn btn-success display-4">
-                            SAIBA MAIS
+                    <div class="mbr-section-btn text-center"><a href="ebooks-composicao-harmonia.html" class="btn btn-success display-4">SAIBA MAIS
                         </a></div>
                 </div>
             </div>
             <div class="card p-3 col-12 col-md-6 col-lg-3">
                 <div class="card-wrapper">
-                    
                     <div class="card-box">
                         <h4 class="card-title mbr-fonts-style display-7"><strong>
                             ARTIGOS DO BLOG</strong></h4>
                         <p class="mbr-text mbr-fonts-style display-7">
                             Leia os diversos artigos teóricos, técnicos e práticos.<br/><br/>Conheça os assuntos e se aprofunde mais.</p>
                     </div>
-                    <div class="mbr-section-btn text-center"><a href="artigos-composicao-harmonia.html" class="btn btn-success display-4">
-                            SAIBA MAIS
-                        </a></div>
+                    <div class="mbr-section-btn text-center"><a href="https://mobirise.co" class="btn btn-success display-4">SAIBA MAIS</a></div>
                 </div>
             </div>
             <div class="card p-3 col-12 col-md-6 col-lg-3">
                 <div class="card-wrapper">
-                    
                     <div class="card-box">
                         <h4 class="card-title mbr-fonts-style display-7"><strong>
                             AULAS AO VIVO</strong></h4>
                         <p class="mbr-text mbr-fonts-style display-7">
                            Assista e acompanhe as diversas aulas de harmonia, composição, improvisação, que realizamos semanalmente.</p>
                     </div>
-                    <div class="mbr-section-btn text-center"><a href="videos-composicao-harmonia.html" class="btn btn-success display-4">
-                            SAIBA MAIS</a></div>
+                    <div class="mbr-section-btn text-center"><a href="https://mobirise.co" class="btn btn-success display-4">SAIBA MAIS</a></div>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section content4 cid-tgcgBycgne" id="content4-5z">
+    <div class="fluid">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">O <strong>melhor site</strong> para aprender a compor música no <strong>mais alto nível</strong></h3>
             </div>
         </div>
     </div>
@@ -751,7 +752,7 @@
           </b:widget>
         </b:section>
 
-    </b:if> 
+    </b:if>
 
     <!-- aqui o código html final que for comum a todas as páginas -->
 

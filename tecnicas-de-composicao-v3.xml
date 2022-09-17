@@ -121,7 +121,7 @@
                     <a class="nav-link link text-primary display-4" href="https://www.tecnicasdecomposicao.com/cursos-online-composicao-harmonia.html">Cursos Online</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link link text-primary display-4" href="https://www.tecnicasdecomposicao.com/ebooks-composicao-harmonia.html">Ebooks</a>
+                    <a class="nav-link link text-primary display-4" href="https://www.tecnicasdecomposicao.com/ebooks-composicao-harmonia-teoria-musical.html">Ebooks</a>
                 </li>
                 <li class="nav-item"><a class="nav-link link text-primary display-4" href="https://www.tecnicasdecomposicao.com.br/#artigos">Artigos</a>
                 </li>
@@ -794,7 +794,7 @@
         </div>
     </div>
 </section>
-<section class="footer4 cid-tg8MLFXQGg mbr-reveal" id="footer4-5j">
+<section class="footer4 cid-thJshxKZIi mbr-reveal" id="footer4-6r">
     <div class="container">
         <div class="media-container-row content mbr-white">
             <div class="col-md-5 col-sm-5">
@@ -807,11 +807,11 @@
             </div>
             <div class="col-md-3 col-sm-8">
                 <p class="mbr-text mbr-fonts-style mbr-links-column display-7">
-                    <a href="sobre-tecnicas-de-composicao.html" class="text-white">Sobre Nós</a><br/>
-                    <a href="cursos-online-composicao-harmonia.html" class="text-white">Cursos Online</a><br/>
-                    <a href="ebooks-composicao-harmonia-teoria-musical.html" class="text-white">Ebooks</a><br/>
-                    <a href="#" class="text-white">Vídeos e Aulas ao Vivo</a><br/>
-                    <a href="https://www.tecnicasdecomposicao.com/artigos-composicao-harmonia.html" class="text-white">Artigos</a>
+                    <a href="https://www.tecnicasdecomposicao.com/sobre-tecnicas-de-composicao.html" class="text-white">Sobre Nós</a><br>
+                    <a href="https://www.tecnicasdecomposicao.com/cursos-online-composicao-harmonia.html" class="text-white">Cursos Online</a><br>
+                    <a href="https://www.tecnicasdecomposicao.com/ebooks-composicao-harmonia-teoria-musical.html" class="text-white">Ebooks</a><br>
+                    <a href="https://www.tecnicasdecomposicao.com/aulas-ao-vivo.html" class="text-white">Vídeos e Aulas ao Vivo</a><br>
+                    <a href="https://www.tecnicasdecomposicao.com.br/#artigos" class="text-white">Artigos</a>
                   </p>
             </div>
             <div class="col-md-3 offset-md-1 col-sm-12">

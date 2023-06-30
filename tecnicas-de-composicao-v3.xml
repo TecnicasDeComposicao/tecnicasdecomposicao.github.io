@@ -54,13 +54,14 @@
   <link rel="preload" as="style" href="https://www.tecnicasdecomposicao.com/assets/mobirise/css/mbr-additional.css"/>
   <link rel="stylesheet" href="https://www.tecnicasdecomposicao.com/assets/mobirise/css/mbr-additional.css" type="text/css"/>
 
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MBBJTF2');</script>
+<!-- End Google Tag Manager -->
 
-&lt;style type=&quot;text/css&quot;&gt;&lt;!-- /*<b:skin><![CDATA[*/]]></b:skin>
-
-&lt;/head&gt;&lt;!--<head/>--&gt;
-
-<body>
-<!-- Analytics -->
 <!-- Facebook Pixel Code -->
 <script>
   !function(f,b,e,v,n,t,s)
@@ -74,26 +75,25 @@
   fbq('init', '2364523120425799');
   fbq('track', 'PageView');
 </script>
+<!-- End Facebook Pixel Code -->
+
+
+&lt;style type=&quot;text/css&quot;&gt;&lt;!-- /*<b:skin><![CDATA[*/]]></b:skin>
+
+&lt;/head&gt;&lt;!--<head/>--&gt;
+
+<body>
+<!-- Analytics -->
 <noscript>&lt;img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=2364523120425799&amp;amp;ev=PageView&amp;amp;noscript=1"
+  src="https://www.facebook.com/tr?id=2364523120425799&amp;ev=PageView&amp;amp;noscript=1"
 /&gt;</noscript>
 <!-- End Facebook Pixel Code -->
 
-<!-- GA -->
-  <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBBJTF2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
-      ga('create', 'UA-29996245-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-<!-- end GA -->
-<!-- /Analytics -->
-
-<!-- versao 3.1 de 2022-09-01 -->
     <!-- aqui código html da NAV e Header (o que for comum a todas as páginas) -->
 
   <section class="menu cid-thIVuTZDLq" once="menu" id="menu2-6n">
@@ -807,10 +807,10 @@
             </div>
             <div class="col-md-3 col-sm-8">
                 <p class="mbr-text mbr-fonts-style mbr-links-column display-7">
-                    <a href="https://www.tecnicasdecomposicao.com/sobre-tecnicas-de-composicao.html" class="text-white">Sobre Nós</a><br>
-                    <a href="https://www.tecnicasdecomposicao.com/cursos-online-composicao-harmonia.html" class="text-white">Cursos Online</a><br>
-                    <a href="https://www.tecnicasdecomposicao.com/ebooks-composicao-harmonia-teoria-musical.html" class="text-white">Ebooks</a><br>
-                    <a href="https://www.tecnicasdecomposicao.com/aulas-ao-vivo.html" class="text-white">Vídeos e Aulas ao Vivo</a><br>
+                    <a href="https://www.tecnicasdecomposicao.com/sobre-tecnicas-de-composicao.html" class="text-white">Sobre Nós</a><br/>
+                    <a href="https://www.tecnicasdecomposicao.com/cursos-online-composicao-harmonia.html" class="text-white">Cursos Online</a><br/>
+                    <a href="https://www.tecnicasdecomposicao.com/ebooks-composicao-harmonia-teoria-musical.html" class="text-white">Ebooks</a><br/>
+                    <a href="https://www.tecnicasdecomposicao.com/aulas-ao-vivo.html" class="text-white">Vídeos e Aulas ao Vivo</a><br/>
                     <a href="https://www.tecnicasdecomposicao.com.br/#artigos" class="text-white">Artigos</a>
                   </p>
             </div>
@@ -824,7 +824,7 @@
                             </a>
                         </div>
                         <div class="soc-item">
-                            <a href="https://www.facebook.com/pages/tecnicasdecomposicao" target="_blank">
+                            <a href="https://www.facebook.com/tecnicasdecomposicao" target="_blank">
                                 <span class="mbr-iconfont mbr-iconfont-social socicon-facebook socicon" style="color: rgb(85, 180, 212); fill: rgb(85, 180, 212);"></span>
                             </a>
                         </div>
